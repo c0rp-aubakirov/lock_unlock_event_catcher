@@ -1,0 +1,3 @@
+daemon_pid
+monitor_pid
+lock_unlock_fifo
