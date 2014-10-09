@@ -11,8 +11,8 @@ Change function `do_if_locked` and `do_if_unlocked` for your purposes.
 
 To start
 
-    $ ./event_catcher start
+    $ ./event_catcher.sh start
 
 To stop
 
-    $ ./event_catcher stop
+    $ ./event_catcher.sh stop
