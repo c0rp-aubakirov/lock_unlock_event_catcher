@@ -100,7 +100,7 @@ case "$1" in
 		;;
 	status)
 		PID=`cat "$DAEMON_PID"`
-		if check_if_daemon_alive; then
+		if check_if_daemon_alive $PID; then
 			echo "Daemon is running. Pid is $PID"
 		else
 			echo "Daemon is not runnning"
